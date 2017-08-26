@@ -1,0 +1,83 @@
+% !TXS template
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage{babel}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Szabolcs}%<first name%:columnShift:-1,persistent%>
+\familyname{Hodossy}%<family name%:columnShift:-1,persistent%>
+%\title{}%<Resumé title%:columnShift:-1,persistent%>                               % optional, remove/comment the line if not wanted
+\address{Baranyai u. 1 5/2}{1117 Budapest}{Hungary}%<street and number%:columnShift:-5,persistent%>%<postcode city%:columnShift:-3,persistent%>%<country%:columnShift:-1,persistent%>         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{+36203133814}%<mobile number%:columnShift:-1,persistent%>                          % optional, remove/comment the line if not wanted
+%\phone{}%<phone number%:columnShift:-1,persistent%>                           % optional, remove/comment the line if not wanted
+%\fax{}%<fax number%:columnShift:-1,persistent%>                             % optional, remove/comment the line if not wanted
+\email{hodossy.szabolcs@gmail.com}%<email%:columnShift:-1,persistent%>                               % optional, remove/comment the line if not wanted
+\homepage{https://hu.linkedin.com/in/szabolcs-hodossy-228b32116}%<home page%:columnShift:-1,persistent%>                         % optional, remove/comment the line if not wanted
+%\extrainfo{}%<additional information%:columnShift:-1,persistent%>                 % optional, remove/comment the line if not wanted
+\photo[64pt][0.4pt]{kiskep3.jpg}%<picture%:columnShift:-1,persistent%>                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{}%<some quote%:columnShift:-1,persistent%>                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2015--Present}{Mathematics MSc.}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2009--2015}{Physics BSc.}{Budapest University of Technology and Economics}{Budapest}{}{}
+\section{Theses}
+\subsection{Bachelor degree}
+\cvitem{Title}{The noise as signal}
+\cvitem{Supervisor}{Professor Dr. Csonka, Szabolcs}
+\cvitem{Description}{Creating a highly sensitive measurement system, which was calibrated by measuring thermal noise of resistors at cryogenic temperatures.}
+\section{Experience}
+\subsection{Vocational}
+\cventry{2017--Present}{Lead Data Analyst}{Nokia Networks}{Budapest}{}{Developing BI dashboard for the senior management}
+\cventry{2014--2017}{Software Engineer}{Nokia Networks}{Budapest}{}{Developing SIP interface of 3G Core MSS}
+\cventry{2013--2014}{Intern}{Nokia Networks}{Budapest}{}{Developing Java based web applications}
+\cventry{2010--2014}{Lab trainee}{BUTE Faculty of Science Nanophysics Lab}{Budapest}{}{Developing measurement automation and making thermal noise measurements}
+\subsection{Teaching}
+\cventry{2013}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2013}{Introduction to data collection and analysis}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2012}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
+\subsection{Miscellaneous}
+\cventry{2013}{Intern}{University of Regensburg}{Regensburg}{}{Summer internship, taking criogenic experiments}
+\section{Languages}
+\cvitemwithcomment{English}{Fluent, advanced certificate of type C}{}
+\cvitemwithcomment{German}{Basic}{}
+\section{Computer Skills}
+\cvitem{Advanced}{Python, C, Git}
+\cvitem{Intermediate}{HTML5, CSS, Javascript, Linux, MS Office 365, Google Docs}
+\cvitem{Basic}{SVN, Jira, Cloud computing}
+\section{Skills}
+\cvitem{Mathematics}{Stochastics, Machine Learning, Data Mining, Data Visualization}
+\cvitem{General}{Adaptive, Agile (Scrum, Kanban, DevOps), Fast-learner}
+\section{Interests}
+\subsection{Professional}
+\cvitem{Finance}{Trading algorithms, Portfolio Management and Optimalization}
+\cvitem{Big Data}{Various applications of machine learning}
+\subsection{Personal}
+\cvitem{Workout}{Crossfit, Functional training, Tennis, Squash}
+\cvitem{Carpentry}{Making my own furniture}
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{HR Department}{Morgan Stanley}%<Company Recruitment team%:columnShift:-7,persistent%>%<Company's name%:columnShift:-5,persistent%>%<Street address%:columnShift:-3,persistent%>%<Zip Code City%:columnShift:-1,persistent%>
+\date{25. August 2017.}%<Date%:columnShift:-1,persistent%>
+\opening{Dear Sir or Madam,}%<Dear Sir or Madam,%:columnShift:-1,persistent%>
+\closing{Yours faithfully,}%<Yours faithfully,%:columnShift:-1,persistent%>
+\enclosure{Curriculum Vitae}%<enclosures%:columnShift:-1,persistent%>          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+I am a soon to graduate Mathematics major at Budapest University of Technology, but I have been working at Nokia since 2014 as a Software Engineer, and from April as a Data Analyst Lead. I was always a science enthusiast, therefore I am interested in your Data Scientist job opening.
+
+At university, first I learned physics, but later I drifted to probability theory, and later I have started to take interest in machine learning and data mining. As school projects I have created a score card developing program for credit card loans, using various machine learning algorithms, such as Logistic Regression, Gradient Boosting and Random Forest. I have also developed a model for estimating CVA values (a price correction used to mitigate the risk associated to the counter-party default of a specific deal) for options based on stock price history, getting to know expert combining and Monte Carlo methods. As a data analyst, now I am leading a small group responsible for a BI dashboard for executives. The tasks consist of automated data collection for different KPIs, making connections between various data sources, developing predictive and statistical models and presenting the results using the Power BI application. From time to time we also support other organization units to extract more information from their data.
+
+I believe that this combination of knowledge is not so common, and can make me a strong candidate for this job. The practice I have acquired during my academic years as a trainee, and the scientific approach secured during my education combined with my history in Nokia ensures that I am qualified for this job.
+
+I hope I managed to arouse your interest in me as a successful applicant for the job. I am looking forward your answer!
+
+\makeletterclosing
+\end{document}
