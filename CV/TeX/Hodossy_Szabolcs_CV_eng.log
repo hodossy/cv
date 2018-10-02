@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.18)  26 AUG 2017 09:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.18)  2 OCT 2018 17:32
 entering extended mode
-**./template_Moderncv.tex
-(template_Moderncv.tex
+**./Hodossy_Szabolcs_CV_eng.tex
+(Hodossy_Szabolcs_CV_eng.tex
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\moderncv\moderncv.cls"
@@ -920,8 +920,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 25.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 25.
 
-(template_Moderncv.aux)
-\openout1 = `template_Moderncv.aux'.
+(Hodossy_Szabolcs_CV_eng.aux)
+\openout1 = `Hodossy_Szabolcs_CV_eng.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -940,7 +940,8 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 25.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1042,16 +1043,16 @@ LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
 
-(template_Moderncv.out) (template_Moderncv.out)
+(Hodossy_Szabolcs_CV_eng.out) (Hodossy_Szabolcs_CV_eng.out)
 \@outlinefile=\write3
-\openout3 = `template_Moderncv.out'.
+\openout3 = `Hodossy_Szabolcs_CV_eng.out'.
 
 \pagenumberwidth=\skip85
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 25.
 \makecvheadpicturebox=\box49
 
-<kiskep3.jpg, id=56, 663.22781pt x 1018.55531pt>
+<kiskep3.jpg, id=60, 663.22781pt x 1018.55531pt>
 File: kiskep3.jpg Graphic file (type jpg)
  <use kiskep3.jpg>
 Package pdftex.def Info: kiskep3.jpg used on input line 27.
@@ -1093,14 +1094,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 48.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 49.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 49.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 48.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 49.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1112,7 +1113,8 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./kiskep3.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 49.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1121,36 +1123,26 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 51.952pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
- (template_Moderncv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
-Package rerunfilecheck Info: File `template_Moderncv.out' has not changed.
-(rerunfilecheck)             Checksum: E99E5EBBDB3D698D06F2499402602AB3;1298.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+ (Hodossy_Szabolcs_CV_eng.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `Hodossy_Szabolcs_CV_eng.out' has not changed
+.
+(rerunfilecheck)             Checksum: 2F690579D51848171DFE868B69BC398B;1422.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21280 strings out of 493333
- 350021 string characters out of 3139194
- 441511 words of memory out of 3000000
- 24536 multiletter control sequences out of 15000+200000
- 60082 words of font info for 67 fonts, out of 3000000 for 9000
+ 21268 strings out of 493333
+ 349949 string characters out of 3139194
+ 441522 words of memory out of 3000000
+ 24535 multiletter control sequences out of 15000+200000
+ 56775 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,12n,52p,10497b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,13n,53p,10503b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{C:/Program Files/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
@@ -1160,9 +1152,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy10.pfb>
-Output written on template_Moderncv.pdf (3 pages, 441752 bytes).
+Output written on Hodossy_Szabolcs_CV_eng.pdf (2 pages, 438376 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
- 20078 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 19574 words of extra memory for PDF output out of 20736 (max. 10000000)
 

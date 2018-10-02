@@ -1,0 +1,70 @@
+% !TXS template
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage{babel}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Szabolcs}%<first name%:columnShift:-1,persistent%>
+\familyname{Hodossy}%<family name%:columnShift:-1,persistent%>
+%\title{}%<Resumé title%:columnShift:-1,persistent%>                               % optional, remove/comment the line if not wanted
+\address{Fáy köz 8. I/1}{1035 Budapest}{Hungary}%<street and number%:columnShift:-5,persistent%>%<postcode city%:columnShift:-3,persistent%>%<country%:columnShift:-1,persistent%>         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{+36203133814}%<mobile number%:columnShift:-1,persistent%>                          % optional, remove/comment the line if not wanted
+%\phone{}%<phone number%:columnShift:-1,persistent%>                           % optional, remove/comment the line if not wanted
+%\fax{}%<fax number%:columnShift:-1,persistent%>                             % optional, remove/comment the line if not wanted
+\email{hodossy.szabolcs@gmail.com}%<email%:columnShift:-1,persistent%>                               % optional, remove/comment the line if not wanted
+\homepage{https://hu.linkedin.com/in/szabolcs-hodossy-228b32116}%<home page%:columnShift:-1,persistent%>                         % optional, remove/comment the line if not wanted
+%\extrainfo{}%<additional information%:columnShift:-1,persistent%>                 % optional, remove/comment the line if not wanted
+\photo[64pt][0.4pt]{kiskep3.jpg}%<picture%:columnShift:-1,persistent%>                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{}%<some quote%:columnShift:-1,persistent%>                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2015--2018}{Mathematics MSc.}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2009--2015}{Physics BSc.}{Budapest University of Technology and Economics}{Budapest}{}{}
+\section{Theses}
+\subsection{Master degree}
+\cvitem{Title}{Analysis of Machine Learning Algorithms}
+\cvitem{Supervisor}{Professor Gaspar, Csaba}
+\cvitem{Description}{Evaluated performance of the most common ML algorithms over binary classification problems.}
+\subsection{Bachelor degree}
+\cvitem{Title}{The noise as signal}
+\cvitem{Supervisor}{Professor Dr. Csonka, Szabolcs}
+\cvitem{Description}{Created a highly sensitive measurement system, which was calibrated by measuring thermal noise of resistors at cryogenic temperatures.}
+\section{Experience}
+\subsection{Vocational}
+\cventry{2017--Present}{Lead Data Analyst}{Nokia Networks}{Budapest}{}{Developing BI dashboard for the senior management}
+\cventry{2014--2017}{Software Engineer}{Nokia Networks}{Budapest}{}{Developing SIP interface of 3G Core MSS}
+\cventry{2013--2014}{Intern}{Nokia Networks}{Budapest}{}{Developing Java based web applications}
+\cventry{2010--2014}{Lab trainee}{BUTE Faculty of Science Nanophysics Lab}{Budapest}{}{Developing measurement automation and making thermal noise measurements}
+\subsection{Teaching}
+\cventry{2013}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2013}{Introduction to data collection and analysis}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2012}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
+\subsection{Miscellaneous}
+\cventry{2013}{Intern}{University of Regensburg}{Regensburg}{}{Summer internship, taking criogenic experiments}
+\section{Languages}
+\cvitemwithcomment{English}{Fluent, advanced certificate of type C}{}
+\cvitemwithcomment{German}{Basic}{}
+\section{Computer Skills}
+\cvitem{Advanced}{Python (pandas, sklearn), Angular, C, Git, Data Mining, Data Visualization}
+\cvitem{Intermediate}{HTML5, CSS, Javascript, Linux, MS Office 365, Google Docs}
+\cvitem{Basic}{Cloud computing}
+\section{Skills}
+\cvitem{Mathematics}{Stochastics, Machine Learning}
+\cvitem{General}{Adaptive, Agile (Scrum, Kanban, DevOps), Fast-learner}
+\section{Interests}
+\subsection{Professional}
+\cvitem{Finance}{Trading algorithms, Portfolio Management and Optimalization}
+\cvitem{Big Data}{Various applications of machine learning}
+\subsection{Personal}
+\cvitem{Workout}{Crossfit, Functional training, Tennis, Squash}
+\cvitem{Carpentry}{Making my own furniture}
+
+\end{document}
