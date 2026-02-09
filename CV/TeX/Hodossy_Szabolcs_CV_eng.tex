@@ -12,7 +12,7 @@
 \firstname{Szabolcs}%<first name%:columnShift:-1,persistent%>
 \familyname{Hodossy}%<family name%:columnShift:-1,persistent%>
 %\title{}%<Resumé title%:columnShift:-1,persistent%>                               % optional, remove/comment the line if not wanted
-\address{Fáy köz 8. I/1}{1035 Budapest}{Hungary}%<street and number%:columnShift:-5,persistent%>%<postcode city%:columnShift:-3,persistent%>%<country%:columnShift:-1,persistent%>         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+%\address{Meszely utca 11.}{2600 Vác}{Hungary}%<street and number%:columnShift:-5,persistent%>%<postcode city%:columnShift:-3,persistent%>%<country%:columnShift:-1,persistent%>         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
 \mobile{+36203133814}%<mobile number%:columnShift:-1,persistent%>                          % optional, remove/comment the line if not wanted
 %\phone{}%<phone number%:columnShift:-1,persistent%>                           % optional, remove/comment the line if not wanted
 %\fax{}%<fax number%:columnShift:-1,persistent%>                             % optional, remove/comment the line if not wanted
@@ -26,6 +26,34 @@
 \begin{document}
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
+\section{Experience}
+\subsection{Vocational}
+\cventry{2024--Present}{Senior Full Stack Software Engineer}{Deutsche Telekom IT Solutions}{Budapest}{}{}
+\cvitem{}{Building a remote monitoring system for 2/4-stroke engines, where SMEs can proactively monitor hundreds of alerts and dataitems to schedule maintenance and prevent critical failures. The system is build up from multiple multilingual applications, handling thousands of users, and even more connected engines. My responsibilities was designing and adding new advanced analytical features while also suggesting and implementing architectural changes in the codebase.}
+\cvitem{}{\textbf{Technologies:} Typescript, Angular, Angular Material, Nx, NgRX, Node.js, Nest.js, HTML, SCSS, Storybook, Docker, Kubernetes, Helm, GitLab, MongoDB}
+\cventry{2021--2024}{Senior Frontend Software Engineer}{Commsignia}{Budapest}{}{}
+\cvitem{}{Developing a management interface for Road Side Units (that facilitate the comminucation between road operators and V2X enabled cars), that handles firmware upgrades, broadcasted messages and offers troubleshooting capabilities. It offers a plugin, also developed by our team, to draw the road information and intersection topology related messages according to the latest standards. Moreover I had the opportunity to develop a fully offline Progressive Web App for the On-Board Units, (that integrates the V2X communication protocol into a car), to help the driver of snowplows with additional information about their surrounding and traffic situation.}
+\cvitem{}{\textbf{Technologies:} Typescript, Angular, Angular Material, HTML, SCSS, Bootstrap, Storybook, WASM, Progressive Web App, Web Worker, Docker, Kubernetes, GitLab}
+\cventry{2019--2021}{Data Engineer}{Continental AG}{Budapest}{}{}
+\cvitem{}{Developing a data catalogization web app, specified in Deep Learning and Computer Vision. The tool makes it easy to find properly labeled data for specific use cases, visualizes images with the ground thruth and ensures that regulatory requirements are fulfilled. I have built up the whole ecosystem for this tool, defining the technology stack, building up the CI/CD Pipeline and the deployment on a Kubernetes cluster. I am also responsible for the full stack development and the monitoring/operations of the tool.}
+\cvitem{}{\textbf{Technologies:} Python (Django, Django REST Framework, OpenCV), Angular, PostgreSQL, Docker, Kubernetes, Kustomize, ElasticSearch, Kibana, AWS EKS, GitHub}
+\cventry{2017--2019}{Lead Data Analyst}{Nokia Networks}{Budapest}{}{}
+\cvitem{}{Developing a BI dashboard for the senior management to report R\&D performance based on data mainly from Atlassian's Jira. I was responsible to build up and maintain the whole ecosystem, starting with the ETL pipeline, through the database up to the final report. I lead a small team of interns, as their Product Owner and Senior engineer, to implement a data entry website, an ETL pipeline in Python and a Power BI report. I was working at the time with SAFe methodology, and our goal was to ease SAFe adoption in Nokia Mobile Networks R\&D (~50k engineers).}
+\cvitem{}{Here I managed to learn a lot more about software testing and practice my soft skills, while deepen my knowlegde about DevOps practices and Cloud development.}
+\cvitem{}{\textbf{Technologies:} Python (Django, Django REST Framework, pandas, SQLAlchemy), PostgreSQL, GitLab CI/CD, OpenStack, Jira, Power BI}
+\cventry{2014--2017}{Software Engineer}{Nokia Networks}{Budapest}{}{}
+\cvitem{}{Developing SIP interface of 3G Core MSS. I was included in the maintenace and further development of a roughly 2 million line codebase, which really defined my view on code quality and maintainability on the long run. I was working at the time with a semi-waterfall methodology, starting to adopt Agile and Cloud technologies. I picked up a lot about enterprise software development practises, like version handling and code reviews, and quality assurance with all levels of software testing: unit, module, functional and end-to-end.}
+\cvitem{}{\textbf{Technologies:} TNSDL, C, Python, Perl}
+\cventry{2013--2014}{Intern}{Nokia Networks}{Budapest}{}{}
+\cvitem{}{Developing Java based web applications to make debugging Telco networks easier.}
+\cventry{2010--2014}{Lab trainee}{BUTE Faculty of Science Nanophysics Lab}{Budapest}{}{}
+\cvitem{}{Developing measurement automation and making thermal noise measurements}
+\subsection{Open Source Contributions}
+\cventry{2020--2021}{Django Natural Language Filter}{Filtering engine for the Django web framework}{}{}{}
+\cventry{2019--2020}{Pandas Extras}{Small extensions for the Pandas Python library}{}{}{}
+\subsection{Teaching}
+\cventry{2012-2013}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
+\cventry{2013}{Introduction to data collection and analysis}{Budapest University of Technology and Economics}{Budapest}{}{}
 \section{Education}
 \subsection{Master degree}
 \cventry{2015--2018}{Mathematics MSc.}{Budapest University of Technology and Economics}{Budapest}{}{}
@@ -37,45 +65,19 @@
 \cvitem{Thesis}{The noise as signal}
 \cvitem{Supervisor}{Professor Dr. Csonka, Szabolcs}
 \cvitem{}{Created a highly sensitive measurement system, which was calibrated by measuring thermal noise of resistors at cryogenic temperatures.}
-\section{Experience}
-\subsection{Vocational}
-\cventry{2019--Present}{Data Engineer}{Continental AG}{Budapest}{}{}
-\cvitem{}{Developing a data catalogization web app, specified in Deep Learning and Computer Vision. The tool makes it easy to find properly labeled data for specific use cases, visualizes images with the ground thruth and ensures that regulatory requirements are fulfilled. I have built up the whole ecosystem for this tool, defining the technology stack, building up the CI/CD Pipeline and the deployment on a Kubernetes cluster. I am also responsible for the full stack development and the monitoring/operations of the tool.}
-\cvitem{}{\textbf{Technologies:} Python (Django, Django REST Framework, OpenCV), Angular, PostgreSQL, Docker, Kubernetes, Kustomize, ElasticSearch, Kibana, AWS EKS, GitHub}
-\cventry{2017--2019}{Lead Data Analyst}{Nokia Networks}{Budapest}{}{}
-\cvitem{}{Developing BI dashboard for the senior management to report R\&D performance based on data mainly from Atlassian's Jira. I was responsible to build up and maintain the whole ecosystem, starting with the ETL pipeline, through the database up to the final report. I lead a small team of interns, as their Product Owner and Senior engineer, to implement a data entry website, an ETL pipeline in Python and a Power BI report. I was working at the time with SAFe methodology, and our goal was to ease SAFe adoption in Nokia Mobile Networks R\&D (~50k engineers).}
-\cvitem{}{Here I managed to learn a lot more about software testing and practice my soft skills, while deepen my knowlegde about DevOps practices and Cloud development.}
-\cvitem{}{\textbf{Technologies:} Python (Django, Django REST Framework, pandas, SQLAlchemy), PostgreSQL, GitLab CI/CD, OpenStack, Jira, Power BI}
-\cventry{2014--2017}{Software Engineer}{Nokia Networks}{Budapest}{}{}
-\cvitem{}{Developing SIP interface of 3G Core MSS. I was included in the maintenace and further development of a roughly 2 million line codebase, which really defined my view on code quality and maintainability on the long run. I was working at the time with a semi-waterfall methodology, starting to adopt Agile and Cloud technologies. I picked up a lot about enterprise software development practises, like version handling and code reviews, and quality assurance with all levels of software testing: unit, module, functional and end-to-end.}
-\cvitem{}{\textbf{Technologies:} TNSDL, C, Python, Perl}
-\cventry{2013--2014}{Intern}{Nokia Networks}{Budapest}{}{}
-\cvitem{}{Developing Java based web applications to make debugging Telco networks easier.}
-\cventry{2010--2014}{Lab trainee}{BUTE Faculty of Science Nanophysics Lab}{Budapest}{}{}
-\cvitem{}{Developing measurement automation and making thermal noise measurements}
-\subsection{Open Source Contributions}
-\cventry{2020--Present}{Django Natural Language Filter}{Filtering engine for the Django web framework}{}{}{}
-\cventry{2019--Present}{Pandas Extras}{Small extensions for the Pandas Python library}{}{}{}
-\subsection{Teaching}
-\cventry{2013}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
-\cventry{2013}{Introduction to data collection and analysis}{Budapest University of Technology and Economics}{Budapest}{}{}
-\cventry{2012}{Analysis for architecture students}{Budapest University of Technology and Economics}{Budapest}{}{}
-\subsection{Miscellaneous}
-\cventry{2013}{Intern}{University of Regensburg}{Regensburg}{}{Summer internship, taking criogenic experiments}
 \section{Languages}
 \cvitemwithcomment{English}{Fluent, advanced certificate of type C}{}
 \cvitemwithcomment{German}{Basic}{}
 \section{Skills}
 \subsection{Computing}
-\cvitem{Advanced}{Python (Django, DRF, Pandas), Angular, C, Git, Data Mining, Data Visualization}
-\cvitem{Intermediate}{Kubernetes, Docker, HTML5, CSS, Javascript (Typescript), Linux}
+\cvitem{Advanced}{Javascript (Typescript, Angular, NX, RxJS, NgRX), Node.js, Python (Django, DRF, Pandas), HTML5, CSS, Kubernetes, C, Git}
+\cvitem{Intermediate}{Docker, Linux}
 \subsection{Professional}
 \cvitem{General}{Adaptive, Fast-learner, Pragmatic, Analytic}
 \cvitem{Agile}{Scrum, Kanban, DevOps, SAFe}
 \section{Interests}
 \subsection{Professional}
-\cvitem{Finance}{Trading algorithms, Portfolio Management and Optimalization}
-\cvitem{Big Data}{Various applications of machine learning}
+\cvitem{Finance}{Personal Portfolio Management and Optimalization}
 \cvitem{Programming}{Small web apps, Open Source contributions}
 \subsection{Personal}
 \cvitem{Carpentry}{Making my own furniture}
